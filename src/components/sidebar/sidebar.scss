@@ -16,7 +16,7 @@
 
         padding: 15px 20px;
 
-        margin: 80px 0 20px ;
+        margin: 30px 0 20px ;
         text-align: center;
     }
 
@@ -56,4 +56,14 @@
         }
     }
 
+
+    
+}
+
+@media screen and (max-width: 600px) {
+      .sideContainer{
+        flex-shrink: 1;
+       
+
+      }  
 }

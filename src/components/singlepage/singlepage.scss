@@ -1,7 +1,7 @@
 .singlePage {
     flex: 0.7;
-    padding-left: 30px;
-    padding-top: 10px;
+   
+    padding: 20px;
 
     .imgContainer {
         width: 100%;
@@ -10,6 +10,7 @@
             width: 100%;
             height: 500px;
             object-fit: cover;
+            border-radius: 10px;
         }
     }
 
@@ -36,3 +37,12 @@
 
 
 }
+@media screen and (max-width: 600px) {
+    .singlePage{
+      box-sizing: border-box;
+        
+    //    width:fit-content;
+    //    这个能很简答的把内容居中， 但是Firefox浏览器不支持，有没有其他办法呢
+    }
+      
+    } 
