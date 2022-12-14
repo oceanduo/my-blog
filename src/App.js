@@ -2,13 +2,13 @@ import Topbar from "./components/topbar/topbar";
 
 import "./app.scss"
 
-import Home from "./pages/home/home";
+import Single from "./pages/single/single";
 
 function App() {
   return (
     <div className="App">
     <Topbar/>
-    <Home/>
+    <Single/>
     </div>
   );
 }
