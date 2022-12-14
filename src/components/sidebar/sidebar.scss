@@ -1,0 +1,59 @@
+.sideContainer {
+    flex: 0.3;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    
+
+    h2 {
+
+        width: 80%;
+        border-top: 1px solid lightslategray;
+        border-bottom: 1px solid lightslategrey;
+
+        padding: 15px 20px;
+
+        margin: 80px 0 20px ;
+        text-align: center;
+    }
+
+    .sideTitle {
+
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 80%;
+            object-fit: fill;
+            border-radius: 50%;
+            padding: 10px 0;
+
+        }
+    }
+
+    .sideItems{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+
+        
+        li{
+            
+            display: inline-block;
+            width: 50%;
+            padding-bottom: 10px;
+            font-size: 1.3rem;
+            
+            
+        }
+    }
+
+}

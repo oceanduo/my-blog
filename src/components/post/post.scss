@@ -1,0 +1,34 @@
+.post {
+
+    width: 500px;
+    padding-top: 50px;
+
+    .imgContainer {
+        width: 90%;
+
+        img {
+            border-radius: 8px;
+            height: 400px;
+            width: 100%;
+            object-fit: fill;
+        }
+    }
+
+
+    hr {
+        width: 70%;
+    }
+
+    .postDetail {
+        width: 85%;
+        font-size: 1.2rem;
+        line-height: 30px;
+        padding-top: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+
+    }
+}
